@@ -1,0 +1,7 @@
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\bin\Debug\Praktik6.6_M_David_X_PPLG2.exe.config
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\bin\Debug\Praktik6.6_M_David_X_PPLG2.exe
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\bin\Debug\Praktik6.6_M_David_X_PPLG2.pdb
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\obj\Debug\Praktik6.6_M_David_X_PPLG2.csproj.AssemblyReference.cache
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\obj\Debug\Praktik6.6_M_David_X_PPLG2.csproj.CoreCompileInputs.cache
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\obj\Debug\Praktik6.6_M_David_X_PPLG2.exe
+C:\M DAVID X PPLG 2\14-10-2025\Praktik6.6_M_David_X_PPLG2\Praktik6.6_M_David_X_PPLG2\obj\Debug\Praktik6.6_M_David_X_PPLG2.pdb
