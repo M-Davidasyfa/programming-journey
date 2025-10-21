@@ -1,0 +1,8 @@
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\bin\Debug\Tugas2_M.David_X_PPLG2.exe.config
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\bin\Debug\Tugas2_M.David_X_PPLG2.exe
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\bin\Debug\Tugas2_M.David_X_PPLG2.pdb
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\obj\Debug\Tugas2_M.David_X_PPLG2.csproj.AssemblyReference.cache
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\obj\Debug\Tugas2_M.David_X_PPLG2.csproj.CoreCompileInputs.cache
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\obj\Debug\Tugas2_M.David_X_PPLG2.exe
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\obj\Debug\Tugas2_M.David_X_PPLG2.pdb
+C:\M DAVID X PPLG 2\21-10-2025\Tugas2_M.David_X_PPLG2\Tugas2_M.David_X_PPLG2\obj\Debug\Tugas2_M.David_X_PPLG2.exe.config
