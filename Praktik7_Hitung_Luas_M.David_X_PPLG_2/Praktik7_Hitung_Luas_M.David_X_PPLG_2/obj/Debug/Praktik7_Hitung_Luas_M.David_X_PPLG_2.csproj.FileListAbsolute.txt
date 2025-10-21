@@ -1,0 +1,8 @@
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\bin\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.exe.config
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\bin\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.exe
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\bin\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.pdb
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\obj\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.csproj.AssemblyReference.cache
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\obj\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.csproj.CoreCompileInputs.cache
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\obj\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.exe
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\obj\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.pdb
+C:\M DAVID X PPLG 2\21-10-2025\Praktik7_Hitung_Luas_M.David_X_PPLG_2\Praktik7_Hitung_Luas_M.David_X_PPLG_2\obj\Debug\Praktik7_Hitung_Luas_M.David_X_PPLG_2.exe.config
