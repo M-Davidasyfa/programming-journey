@@ -1,0 +1,18 @@
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek_Akhir_Semester_M_David_X_PPLG2.Form1.resources
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek_Akhir_Semester_M_David_X_PPLG2.Properties.Resources.resources
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.csproj.GenerateResource.cache
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.GeneratedMSBuildEditorConfig.editorconfig
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.AssemblyInfoInputs.cache
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.AssemblyInfo.cs
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.csproj.CoreCompileInputs.cache
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\bin\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.exe
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\bin\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.deps.json
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\bin\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.runtimeconfig.json
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\bin\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.dll
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\bin\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.pdb
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.dll
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\refint\Projek Akhir Semester_M_David_X_PPLG2.dll
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.pdb
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek Akhir Semester_M_David_X_PPLG2.genruntimeconfig.cache
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\ref\Projek Akhir Semester_M_David_X_PPLG2.dll
+C:\David\Projek Akhir Semester_M_David_X_PPLG2\Projek Akhir Semester_M_David_X_PPLG2\obj\Debug\net8.0-windows\Projek_Akhir_Semester_M_David_X_PPLG2.Form2.resources

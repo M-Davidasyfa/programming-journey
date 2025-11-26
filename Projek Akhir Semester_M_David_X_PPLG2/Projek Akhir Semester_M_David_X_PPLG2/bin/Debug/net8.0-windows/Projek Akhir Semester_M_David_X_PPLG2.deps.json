@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projek Akhir Semester_M_David_X_PPLG2/1.0.0": {
+        "runtime": {
+          "Projek Akhir Semester_M_David_X_PPLG2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projek Akhir Semester_M_David_X_PPLG2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
