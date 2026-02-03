@@ -1,0 +1,17 @@
+/* Styles for external CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: darkred;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: rgb(red, green, blue);
+    line-height: 1.6;
+    padding: 0 500px;
+}
