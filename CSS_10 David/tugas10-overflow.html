@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Tugas Overflow</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Header */
+header{
+    text-align: center;
+}
+
+/* Navigasi */
+nav a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background: #2c3e50;
+}
+
+/* Artikel */
+.flexbox{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+article{
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 120px;
+    margin: 15px;
+}
+
+/* Overflow */
+.visible{
+    overflow: visible;
+    background-color: cyan;
+}
+
+.hidden{
+    overflow: hidden;
+    background-color: rebeccapurple;
+}
+
+.scroll{
+    overflow: scroll;
+    background-color: #3498db;
+}
+
+.auto{
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Website Produk Teknologi</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Product</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="flexbox">
+
+<article class="visible">
+<h3>Produk 1 - Laptop Gaming</h3>
+<p>
+Laptop gaming adalah perangkat komputer portabel yang dirancang untuk menjalankan
+game dengan performa tinggi. Laptop ini biasanya dilengkapi prosesor cepat,
+kartu grafis khusus, RAM besar, dan sistem pendingin yang baik. Banyak gamer
+memilih laptop gaming karena praktis dibawa ke mana saja tanpa kehilangan
+kemampuan bermain game modern dengan grafis tinggi. Selain untuk bermain,
+laptop ini juga sering digunakan untuk desain grafis, editing video, dan
+pekerjaan berat lainnya yang membutuhkan performa tinggi.
+</p>
+</article>
+
+<article class="hidden">
+<h3>Produk 2 - Smartphone</h3>
+<p>
+Smartphone merupakan perangkat komunikasi modern yang memiliki banyak fungsi.
+Selain untuk telepon dan pesan singkat, smartphone juga digunakan untuk
+mengakses internet, bermain game, mengambil foto, dan menjalankan berbagai
+aplikasi produktivitas. Saat ini hampir semua orang menggunakan smartphone
+dalam kehidupan sehari-hari. Dengan perkembangan teknologi, smartphone menjadi
+lebih cepat, memiliki kamera yang sangat baik, dan daya tahan baterai yang
+lebih lama sehingga mendukung berbagai aktivitas digital pengguna.
+</p>
+</article>
+
+<article class="scroll">
+<h3>Produk 3 - Smartwatch</h3>
+<p>
+Smartwatch adalah jam tangan pintar yang dapat terhubung dengan smartphone.
+Perangkat ini mampu menampilkan notifikasi pesan, panggilan, dan aplikasi
+langsung dari pergelangan tangan. Selain itu smartwatch juga memiliki fitur
+kesehatan seperti menghitung langkah kaki, memonitor detak jantung, serta
+melacak aktivitas olahraga pengguna. Banyak orang menggunakan smartwatch
+untuk membantu menjaga gaya hidup sehat sekaligus sebagai perangkat teknologi
+yang praktis dan modern.
+</p>
+</article>
+
+<article class="auto">
+<h3>Produk 4 - Tablet</h3>
+<p>
+Tablet adalah perangkat elektronik yang memiliki layar lebih besar dari
+smartphone namun lebih ringan dibandingkan laptop. Tablet sering digunakan
+untuk membaca buku digital, menonton video, menggambar, serta mengerjakan
+tugas ringan. Banyak pelajar dan pekerja memilih tablet karena mudah dibawa
+dan memiliki baterai yang tahan lama. Dengan tambahan keyboard atau stylus,
+tablet bahkan dapat digunakan untuk menulis, membuat catatan, dan melakukan
+pekerjaan kreatif secara lebih nyaman.
+</p>
+</article>
+
+</div>
+
+</body>
+</html>
