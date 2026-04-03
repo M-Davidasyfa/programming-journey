@@ -3,21 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordered List Tidak Terurut</title>
+    <title>Text Alignment</title>
+
+    <style>
+        body {
+            font-family: Verdana, sans-serif; /* diganti font */
+            margin: 25px;
+        }
+
+        header {
+            text-align: center;
+            font-size: 26px; /* sedikit diperbesar */
+            color: darkblue; /* tambah warna */
+            margin-bottom: 15px;
+        }
+
+        .text-left {
+            text-align: left;
+            color: black;
+        }
+
+        .text-center {
+            text-align: center;
+            color: green; /* tambah warna */
+        }
+
+        .text-right {
+            text-align: right;
+            color: maroon; /* tambah warna */
+        }
+
+        .text-justify {
+            text-align: justify;
+            line-height: 1.6; /* tambah jarak baris */
+        }
+
+        div {
+            margin-bottom: 12px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>DEMO MEMBUAT LIST (DAFTAR) TIDAK TERURUT</h1>
 
-    <b><u>Perlengkapan yang dibutuhkan untuk berangkat ke sekolah</u></b>
+    <header>Contoh Perataan Teks CSS</header>
 
-    <ul>
-        <li>Baju Seragam</li>
-        <li>Tas</li>
-        <li>Sepatu</li>
-        <li>Buku</li>
-        <li>Pensil</li>
-        <li>Penghapus</li>
-        <li>Bolpoin</li>
-    </ul>
+    <div class="text-left">
+        Paragraf ini rata kiri. Ini contoh sederhana penggunaan text-align dalam CSS.
+    </div>
+
+    <div class="text-center">
+        Paragraf ini rata tengah. Teks akan berada di bagian tengah halaman.
+    </div>
+
+    <div class="text-right">
+        Paragraf ini rata kanan. Biasanya digunakan untuk tampilan tertentu.
+    </div>
+
+    <div class="text-justify">
+        Paragraf ini rata kanan dan kiri. Teks akan terlihat lebih rapi karena sejajar di kedua sisi.
+    </div>
+
 </body>
 </html>
