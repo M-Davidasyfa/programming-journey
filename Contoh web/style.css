@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+/* NAVBAR */
+nav {
+    background: #34495e;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* HOME */
+#home {
+    padding: 30px;
+}
+
+/* PRODUK */
+.produk {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* GAMBAR */
+.produk img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+button {
+    background: orange;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* PEMBAYARAN */
+#produkSection p {
+    font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+}
