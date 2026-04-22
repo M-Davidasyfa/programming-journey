@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.warna-nama {
+    background-color: blue;
+    color: black;
+}
+
+.warna-rgb {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    
+}
+
+.warna-rgba {
+    background-color: rgba(0, 128, 0, 0.6);
+    color: black;
+}
+
+
+.warna-hsl {
+    background-color: hsl(280, 60%, 50%);
+    color: white;
+}
+
+
+.warna-hsla {
+    background-color: hsla(30, 100%, 50%, 0.5);
+    color: black;
+}
