@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Parfum LV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <h2>Toko Online Parfum Louis Vuitton</h2>
+        <p>Selamat datang di toko parfum mewah kami!</p>
+        <p>Klik menu <b>Produk</b> untuk membeli parfum.</p>
+    </section>
+
+    <!-- PRODUK -->
+    <section id="produk">
+        <h2>Produk Parfum</h2>
+
+        <div class="gallery">
+            <div class="item">
+                <img src="Symphonis.jpg">
+                <p>LV Symphony - Rp 10.400.000</p>
+                <button onclick="beli('Symphony')">Beli</button>
+            </div>
+
+            <div class="item">
+                <img src="Imagination.jpg">
+                <p>LV Imagination - Rp 8.500.000</p>
+                <button onclick="beli('Imagination')">Beli</button>
+            </div>
+
+            <div class="item">
+                <img src="Meteor.jpg">
+                <p>LV Meteore - Rp 6.200.000</p>
+                <button onclick="beli('Meteore')">Beli</button>
+            </div>
+
+            <div class="item">
+                <img src="Afternoon swim.jpg">
+                <p>LV Afternoon Swim - Rp 6.200.000</p>
+                <button onclick="beli('Afternoon Swim')">Beli</button>
+            </div>
+
+            <div class="item">
+                <img src="city of star.jpg">
+                <p>LV City of Stars - Rp 6.200.000</p>
+                <button onclick="beli('City of Stars')">Beli</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 08123456789</p>
+        <p>Email: parfumlv@email.com</p>
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/6282227360885" target="_blank" class="wa-button">
+            Chat via WhatsApp
+        </a>
+    </section>
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Pilih Metode Pembayaran</h3>
+            <p id="produkDipilih"></p>
+            <button onclick="pilih('Tunai')">Tunai</button>
+            <button onclick="pilih('Transfer')">Transfer</button>
+            <br><br>
+            <button onclick="tutup()">Batal</button>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script>
+        let produk = "";
+
+        function beli(nama) {
+            produk = nama;
+            document.getElementById("popup").style.display = "flex";
+            document.getElementById("produkDipilih").innerText = nama;
+        }
+
+        function pilih(metode) {
+            alert("Kamu memilih " + metode + " untuk " + produk);
+            tutup();
+        }
+
+        function tutup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

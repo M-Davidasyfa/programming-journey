@@ -1,0 +1,175 @@
+/* BODY */
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background: #222;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* SECTION */
+section {
+    display: none;
+    padding: 50px;
+    position: relative;
+}
+
+/* HOME */
+#home {
+    display: block;
+    background: url("Background.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+/* PRODUK */
+#produk {
+    background: url("Background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* TARGET */
+#home:target,
+#produk:target,
+#contact:target {
+    display: block;
+}
+
+/* GALERI */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ITEM */
+.item {
+    width: 150px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* TOMBOL BELI */
+.item button {
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background: #444;
+}
+
+/* POPUP */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.popup-content button {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background: #444;
+}
+
+/* TOMBOL WHATSAPP */
+.wa-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.wa-button:hover {
+    background: #1ebe5d;
+}
