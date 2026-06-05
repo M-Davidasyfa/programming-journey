@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi Hotel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+        <div class="nav-brand" onclick="navigateTo('home')">Reservasi Hotel</div>
+        <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu navigasi">
+            <i class="fas fa-bars" id="hamburgerIcon"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a class="active" data-page="home" onclick="navigateTo('home')">Home</a></li>
+            <li><a data-page="pemesanan" onclick="navigateTo('pemesanan')">Pemesanan Hotel</a></li>
+            <li><a data-page="kontak" onclick="navigateTo('kontak')">Kontak</a></li>
+            <li id="navAuth"></li>
+        </ul>
+    </nav>
+
+    <!-- ===== MAIN ===== -->
+    <main>
+
+        <!-- HOME PAGE -->
+        <section class="page active" id="page-home">
+            <div class="home-hero">
+                <div class="particle" style="width:200px;height:200px;top:10%;left:5%;animation-delay:-2s;"></div>
+                <div class="particle" style="width:150px;height:150px;bottom:15%;right:8%;animation-delay:-7s;"></div>
+                <div class="particle" style="width:100px;height:100px;top:50%;left:70%;animation-delay:-12s;"></div>
+                <div class="particle" style="width:120px;height:120px;top:20%;right:25%;animation-delay:-5s;opacity:0.06;"></div>
+                <div class="hero-content">
+                    <h1>Selamat <span>Datang</span></h1>
+                    <p>Pesan hotel dekat tempat wisata dengan mudah</p>
+                    <button class="hero-cta" onclick="navigateTo('pemesanan')">
+                        <i class="fas fa-search"></i> Pesan Sekarang
+                    </button>
+                </div>
+            </div>
+            <div class="home-features">
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-hotel"></i></div>
+                    <h3>Hotel Terbaik</h3>
+                    <p>Pilihan hotel bintang dekat destinasi wisata populer di seluruh Indonesia</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-tags"></i></div>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Dapatkan tarif kompetitif dengan berbagai pilihan kamar sesuai budget Anda</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-headset"></i></div>
+                    <h3>Layanan 24 Jam</h3>
+                    <p>Tim kami siap membantu reservasi dan pertanyaan Anda kapan saja via WhatsApp</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOGIN PAGE -->
+        <section class="page" id="page-login">
+            <div class="auth-wrap">
+                <div class="auth-card">
+                    <div class="auth-header">
+                        <div class="google-logo">
+                            <span class="g-b">R</span><span class="g-r">e</span><span class="g-y">s</span><span class="g-b">e</span><span class="g-g">r</span><span class="g-r">v</span><span class="g-y">a</span><span class="g-g">si</span>
+                        </div>
+                        <h2 id="authTitle">Masuk</h2>
+                        <p id="authSubtitle">Gunakan akun Anda untuk melanjutkan</p>
+                    </div>
+
+                    <!-- Form Login -->
+                    <form id="loginForm" class="auth-form active" onsubmit="return handleLogin(event)">
+                        <div class="input-group">
+                            <input type="email" id="loginEmail" required autocomplete="email">
+                            <label for="loginEmail">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="loginPassword" required autocomplete="current-password">
+                            <label for="loginPassword">Kata Sandi</label>
+                            <button type="button" class="pw-toggle" onclick="togglePw('loginPassword', this)">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <div class="auth-error" id="loginError"></div>
+                        <button type="submit" class="btn-auth">
+                            <span class="btn-text">Masuk</span>
+                            <div class="spinner"></div>
+                        </button>
+                        <p class="auth-switch">Akun belum terdaftar? <a onclick="switchAuth('register')">Daftar di sini</a></p>
+                    </form>
+
+                    <!-- Form Register -->
+                    <form id="registerForm" class="auth-form" onsubmit="return handleRegister(event)">
+                        <div class="input-group">
+                            <input type="text" id="regName" required autocomplete="name">
+                            <label for="regName">Nama Lengkap</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="regEmail" required autocomplete="email">
+                            <label for="regEmail">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="regPassword" required autocomplete="new-password" minlength="6">
+                            <label for="regPassword">Kata Sandi (min. 6 karakter)</label>
+                            <button type="button" class="pw-toggle" onclick="togglePw('regPassword', this)">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="regConfirm" required autocomplete="new-password">
+                            <label for="regConfirm">Konfirmasi Kata Sandi</label>
+                            <button type="button" class="pw-toggle" onclick="togglePw('regConfirm', this)">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <div class="auth-error" id="registerError"></div>
+                        <button type="submit" class="btn-auth">
+                            <span class="btn-text">Daftar</span>
+                            <div class="spinner"></div>
+                        </button>
+                        <p class="auth-switch">Sudah punya akun? <a onclick="switchAuth('login')">Masuk di sini</a></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- PEMESANAN PAGE -->
+        <section class="page" id="page-pemesanan">
+            <div class="pemesanan-wrap">
+                <h2>Pemesanan Hotel</h2>
+                <div class="pemesanan-grid">
+                    <div class="form-card">
+                        <h3><i class="fas fa-clipboard-list"></i> Form Pemesanan</h3>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" placeholder="Masukkan nama lengkap" autocomplete="name">
+                            <div class="field-error" id="namaError">Nama wajib diisi</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="hotel">Pilih Hotel</label>
+                            <select id="hotel" onchange="onHotelChange()">
+                                <option value="">-- Pilih Hotel --</option>
+                            </select>
+                            <div class="field-error" id="hotelError">Pilih hotel terlebih dahulu</div>
+                        </div>
+                        <div class="hotel-info" id="hotelInfo"></div>
+                        <div class="form-group">
+                            <label for="kamar">Jumlah Kamar</label>
+                            <input type="number" id="kamar" min="1" max="10" value="">
+                            <div class="field-error" id="kamarError">Jumlah kamar minimal 1</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="malam">Lama Menginap (malam)</label>
+                            <input type="number" id="malam" min="1" max="30" value="">
+                            <div class="field-error" id="malamError">Lama menginap minimal 1 malam</div>
+                        </div>
+                        
+                        <div class="total-box">
+                            <span class="label">Total Harga</span>
+                            <span class="amount" id="totalHarga">Rp 0</span>
+                        </div>
+                        <button class="btn-hitung" onclick="hitungTotal()">
+                            <i class="fas fa-calculator"></i> Hitung Total
+                        </button>
+                        <div class="form-group">
+                            <label for="pembayaran">Metode Pembayaran</label>
+                            <select id="pembayaran">
+                                <option value="">-- Pilih Metode --</option>
+                                <option value="Transfer Bank">Transfer Bank</option>
+                                <option value="E-Wallet">E-Wallet (GoPay, OVO, Dana)</option>
+                                <option value="Kartu Kredit / Debit">Kartu Kredit / Debit</option>
+                                <option value="QRIS">QRIS</option>
+                            </select>
+                            <div class="field-error" id="pembayaranError">Pilih metode pembayaran</div>
+                        </div>
+                        <button class="btn-pesan" onclick="pesanHotel()">
+                            <i class="fas fa-paper-plane"></i> Pesan Sekarang
+                        </button>
+                    </div>
+                    <div class="map-card">
+                        <h3><i class="fas fa-map-marker-alt"></i> Lokasi Hotel</h3>
+                        <div class="map-placeholder">
+                            <iframe id="mapFrame" src="https://www.openstreetmap.org/export/embed.html?bbox=110.3%2C-7.85%2C110.45%2C-7.75&layer=mapnik" loading="lazy" title="Peta lokasi hotel"></iframe>
+                            <div class="map-overlay" id="mapOverlay">
+                                <i class="fas fa-info-circle"></i> Pilih hotel untuk melihat lokasi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- KONTAK PAGE -->
+        <section class="page" id="page-kontak">
+            <div class="kontak-wrap">
+                <h2>Kontak</h2>
+                <p class="kontak-subtitle">Hubungi kami untuk informasi lebih lanjut mengenai reservasi hotel dan pertanyaan lainnya.</p>
+                <div class="kontak-card">
+                    <div class="kontak-item">
+                        <div class="ki-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="ki-body">
+                            <h4>Email</h4>
+                            <p>info@hotel.com</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="ki-icon"><i class="fas fa-phone"></i></div>
+                        <div class="ki-body">
+                            <h4>Telepon</h4>
+                            <p>+62 82227360885</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="ki-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                        <div class="ki-body">
+                            <h4>WhatsApp</h4>
+                            <p>Chat langsung dengan tim kami untuk reservasi dan pertanyaan</p>
+                            <a class="btn-whatsapp" href="https://wa.me/6282227360885?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20reservasi%20hotel" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Chat WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="ki-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="ki-body">
+                            <h4>Alamat</h4>
+                            <p>Jl. Malioboro No. 100, Yogyakarta 55271</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>2026 Reservasi Hotel</footer>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- ===== MODAL KONFIRMASI PEMESANAN ===== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <h3><i class="fas fa-check-circle"></i> Konfirmasi Pemesanan</h3>
+            <div class="modal-detail" id="modalDetail"></div>
+            <div class="modal-actions">
+                <button class="btn-batal" onclick="closeModal()">Batal</button>
+                <button class="btn-konfirm" onclick="konfirmasiPesan()">Konfirmasi</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODAL DETAIL BOOKING ===== -->
+    <div class="modal-overlay" id="detailModal">
+        <div class="modal-box">
+            <h3><i class="fas fa-file-invoice"></i> Detail Booking</h3>
+            <div class="modal-detail" id="detailContent"></div>
+            <div class="modal-actions">
+                <button class="btn-batal" onclick="closeDetailModal()">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="logika.js"></script>
+</body>
+</html>
